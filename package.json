@@ -1,0 +1,35 @@
+{
+  "name": "shim-raf",
+  "version": "0.0.1",
+  "description": "Shim for requestAnimationFrame",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/huxiaoqi567/shim-raf.git"
+  },
+  "keywords": [
+    "requestAnimationFrame",
+    "raf",
+    "shim",
+    "polyfill"
+  ],
+  "author": "xiaoqi.huxq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huxiaoqi567/shim-raf/issues"
+  },
+  "homepage": "https://github.com/huxiaoqi567/shim-raf#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
